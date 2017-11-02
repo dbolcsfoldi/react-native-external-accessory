@@ -1,0 +1,17 @@
+{
+  "name": "react-native-external-accessory",
+  "version": "1.0.0",
+  "description": "ReactNative bindings for Apple ExternalAccessory Framework",
+  "main": "index.js",
+  "author": "David Bolcsfoldi <david@bolcsfoldi.com>",
+  "license": "MIT",
+  "private": false,
+  "nativePackage": true,
+  "peerDependencies": {
+    "react-native": "^0.49.5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react-native": "^0.49.5"
+  }
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'WiFiExternalExample'
+
+include ':app'
