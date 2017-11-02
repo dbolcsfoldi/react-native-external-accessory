@@ -35,7 +35,7 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* WiFiExternalExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WiFiExternalExampleTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		63E9E52B1FAB6E4100F30F84 /* libEAMExternalAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9E5001FAB6E3B00F30F84 /* libEAMExternalAccessory.a */; };
+		63802B581FAB99EF00FB9780 /* libEAMExternalAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63802B571FAB99DD00FB9780 /* libEAMExternalAccessory.a */; };
 		63E9E52D1FAB6E6100F30F84 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9E52C1FAB6E6100F30F84 /* ExternalAccessory.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -238,9 +238,9 @@
 			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
 			remoteInfo = "fishhook-tvOS";
 		};
-		63E9E4FF1FAB6E3B00F30F84 /* PBXContainerItemProxy */ = {
+		63802B561FAB99DD00FB9780 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ACDAF34D4DD7416B9B9E2715 /* EAMExternalAccessory.xcodeproj */;
+			containerPortal = 63802B521FAB99DD00FB9780 /* EAMExternalAccessory.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 63896A0B1FAB6D29008BB698;
 			remoteInfo = EAMExternalAccessory;
@@ -319,11 +319,11 @@
 		2D02E47B1E0B4A5D006451C7 /* WiFiExternalExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WiFiExternalExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* WiFiExternalExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WiFiExternalExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		63802B521FAB99DD00FB9780 /* EAMExternalAccessory.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EAMExternalAccessory.xcodeproj; path = ../../../ios/EAMExternalAccessory/EAMExternalAccessory.xcodeproj; sourceTree = "<group>"; };
 		63E9E52C1FAB6E6100F30F84 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		63E9E52E1FAB6E6100F30F84 /* WiFiExternalExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WiFiExternalExample.entitlements; path = WiFiExternalExample/WiFiExternalExample.entitlements; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		ACDAF34D4DD7416B9B9E2715 /* EAMExternalAccessory.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = EAMExternalAccessory.xcodeproj; path = "../node_modules/react-native-external-accessory/ios/EAMExternalAccessory/EAMExternalAccessory.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -340,7 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E9E52B1FAB6E4100F30F84 /* libEAMExternalAccessory.a in Frameworks */,
+				63802B581FAB99EF00FB9780 /* libEAMExternalAccessory.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -512,10 +512,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		631FB5CC1FAA936C00CF8943 /* Products */ = {
+		63802B531FAB99DD00FB9780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63E9E5001FAB6E3B00F30F84 /* libEAMExternalAccessory.a */,
+				63802B571FAB99DD00FB9780 /* libEAMExternalAccessory.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,6 +540,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				63802B521FAB99DD00FB9780 /* EAMExternalAccessory.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -552,7 +553,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				ACDAF34D4DD7416B9B9E2715 /* EAMExternalAccessory.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -721,8 +721,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 631FB5CC1FAA936C00CF8943 /* Products */;
-					ProjectRef = ACDAF34D4DD7416B9B9E2715 /* EAMExternalAccessory.xcodeproj */;
+					ProductGroup = 63802B531FAB99DD00FB9780 /* Products */;
+					ProjectRef = 63802B521FAB99DD00FB9780 /* EAMExternalAccessory.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -966,11 +966,11 @@
 			remoteRef = 631FB5CA1FAA936C00CF8943 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63E9E5001FAB6E3B00F30F84 /* libEAMExternalAccessory.a */ = {
+		63802B571FAB99DD00FB9780 /* libEAMExternalAccessory.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libEAMExternalAccessory.a;
-			remoteRef = 63E9E4FF1FAB6E3B00F30F84 /* PBXContainerItemProxy */;
+			remoteRef = 63802B561FAB99DD00FB9780 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		63E9E5231FAB6E3B00F30F84 /* libthird-party.a */ = {

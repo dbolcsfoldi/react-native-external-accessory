@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		63896A0B1FAB6D29008BB698 /* libEAMExternalAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEAMExternalAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAMExternalAccessory.h; sourceTree = SOURCE_ROOT; };
-		63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAMExternalAccessory.m; sourceTree = SOURCE_ROOT; };
+		63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAMExternalAccessory.h; path = EAMExternalAccessory/EAMExternalAccessory.h; sourceTree = SOURCE_ROOT; };
+		63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAMExternalAccessory.m; path = EAMExternalAccessory/EAMExternalAccessory.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63802B5A1FAB9B3C00FB9780 /* EAMExternalAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */,
+				63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */,
+			);
+			path = EAMExternalAccessory;
+			sourceTree = "<group>";
+		};
 		63896A021FAB6D29008BB698 = {
 			isa = PBXGroup;
 			children = (
-				63896A0D1FAB6D29008BB698 /* EAMExternalAccessory */,
+				63802B5A1FAB9B3C00FB9780 /* EAMExternalAccessory */,
 				63896A0C1FAB6D29008BB698 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +62,6 @@
 				63896A0B1FAB6D29008BB698 /* libEAMExternalAccessory.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		63896A0D1FAB6D29008BB698 /* EAMExternalAccessory */ = {
-			isa = PBXGroup;
-			children = (
-				63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */,
-				63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */,
-			);
-			path = EAMExternalAccessory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
