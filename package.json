@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "David Bolcsfoldi <david@bolcsfoldi.com>",
   "license": "MIT",
+  "homepage": "https://github.com/dbolcsfoldi/react-native-external-accessory",
+  "repository": "github:dbolcsfoldi/react-native-external-accessory",
+  "keywords": [ "react-native", "react", "native", "external accessory", "wac" ],
   "private": false,
   "nativePackage": true,
   "peerDependencies": {
