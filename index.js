@@ -64,7 +64,7 @@ export default class ExternalAccessoryBrowser
   }
 
   static configureAccessory(accessory) {
-    EAMExternalAccessoryBrowser.configureAccessory(accessory);
+    return EAMExternalAccessoryBrowser.configureAccessory(accessory);
   }
 }
 
