@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63896A191FAB6D55008BB698 /* EAMExternalAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */; };
+		637160AE1FC51BCD00E7A84C /* EAMExternalAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 637160AD1FC51BCD00E7A84C /* EAMExternalAccessory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		63896A091FAB6D29008BB698 /* CopyFiles */ = {
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		63896A0B1FAB6D29008BB698 /* libEAMExternalAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEAMExternalAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAMExternalAccessory.h; path = EAMExternalAccessory/EAMExternalAccessory.h; sourceTree = SOURCE_ROOT; };
-		63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAMExternalAccessory.m; path = EAMExternalAccessory/EAMExternalAccessory.m; sourceTree = SOURCE_ROOT; };
+		134814201AA4EA6300B7C361 /* libEAMExternalAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEAMExternalAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		637160AC1FC51BCD00E7A84C /* EAMExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAMExternalAccessory.h; path = EAMExternalAccessory/EAMExternalAccessory.h; sourceTree = "<group>"; };
+		637160AD1FC51BCD00E7A84C /* EAMExternalAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAMExternalAccessory.m; path = EAMExternalAccessory/EAMExternalAccessory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63896A081FAB6D29008BB698 /* Frameworks */ = {
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,245 +39,216 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63802B5A1FAB9B3C00FB9780 /* EAMExternalAccessory */ = {
+		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63896A171FAB6D55008BB698 /* EAMExternalAccessory.h */,
-				63896A181FAB6D55008BB698 /* EAMExternalAccessory.m */,
-			);
-			path = EAMExternalAccessory;
-			sourceTree = "<group>";
-		};
-		63896A021FAB6D29008BB698 = {
-			isa = PBXGroup;
-			children = (
-				63802B5A1FAB9B3C00FB9780 /* EAMExternalAccessory */,
-				63896A0C1FAB6D29008BB698 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		63896A0C1FAB6D29008BB698 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63896A0B1FAB6D29008BB698 /* libEAMExternalAccessory.a */,
+				134814201AA4EA6300B7C361 /* libEAMExternalAccessory.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				637160AC1FC51BCD00E7A84C /* EAMExternalAccessory.h */,
+				637160AD1FC51BCD00E7A84C /* EAMExternalAccessory.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63896A0A1FAB6D29008BB698 /* EAMExternalAccessory */ = {
+		58B511DA1A9E6C8500147676 /* EAMExternalAccessory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63896A141FAB6D29008BB698 /* Build configuration list for PBXNativeTarget "EAMExternalAccessory" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "EAMExternalAccessory" */;
 			buildPhases = (
-				63896A071FAB6D29008BB698 /* Sources */,
-				63896A081FAB6D29008BB698 /* Frameworks */,
-				63896A091FAB6D29008BB698 /* CopyFiles */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EAMExternalAccessory;
-			productName = EAMExternalAccessory;
-			productReference = 63896A0B1FAB6D29008BB698 /* libEAMExternalAccessory.a */;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libEAMExternalAccessory.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63896A031FAB6D29008BB698 /* Project object */ = {
+		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "David Bolcsfoldi";
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					63896A0A1FAB6D29008BB698 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 63896A061FAB6D29008BB698 /* Build configuration list for PBXProject "EAMExternalAccessory" */;
-			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = en;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "EAMExternalAccessory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 63896A021FAB6D29008BB698;
-			productRefGroup = 63896A0C1FAB6D29008BB698 /* Products */;
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63896A0A1FAB6D29008BB698 /* EAMExternalAccessory */,
+				58B511DA1A9E6C8500147676 /* EAMExternalAccessory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63896A071FAB6D29008BB698 /* Sources */ = {
+		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63896A191FAB6D55008BB698 /* EAMExternalAccessory.m in Sources */,
+				637160AE1FC51BCD00E7A84C /* EAMExternalAccessory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		63896A121FAB6D29008BB698 /* Debug */ = {
+		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		63896A131FAB6D29008BB698 /* Release */ = {
+		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		63896A151FAB6D29008BB698 /* Debug */ = {
+		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NBR9D74Y4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EAMExternalAccessory;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63896A161FAB6D29008BB698 /* Release */ = {
+		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NBR9D74Y4;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EAMExternalAccessory;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63896A061FAB6D29008BB698 /* Build configuration list for PBXProject "EAMExternalAccessory" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "EAMExternalAccessory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63896A121FAB6D29008BB698 /* Debug */,
-				63896A131FAB6D29008BB698 /* Release */,
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63896A141FAB6D29008BB698 /* Build configuration list for PBXNativeTarget "EAMExternalAccessory" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "EAMExternalAccessory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63896A151FAB6D29008BB698 /* Debug */,
-				63896A161FAB6D29008BB698 /* Release */,
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63896A031FAB6D29008BB698 /* Project object */;
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
 }
