@@ -33,7 +33,7 @@ export default class ExternalAccessoryBrowser
     if (nativeEvents.some((n) => name === n)) {
       let listener = ExternalAccessoryEventEmitter.addListener(name, handler);
       ExternalAccessoryBrowser.eventListeners.set(handler, listener);
-      return { remove: () => ExternalAccessoryEventEmitter.removeEventListener(name, handler) }
+      return { remove: () => ExternalAccessoryBrowser.removeEventListener(name, handler) }
     } else {
       console.warn(`Trying to subscribe to unknown event: ${name}`);
       return { remove: () => {} };
