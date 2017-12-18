@@ -7,14 +7,37 @@
   "license": "MIT",
   "homepage": "https://github.com/dbolcsfoldi/react-native-external-accessory",
   "repository": "github:dbolcsfoldi/react-native-external-accessory",
-  "keywords": [ "react-native", "react", "native", "external accessory", "wac" ],
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "external accessory",
+    "wac"
+  ],
   "private": false,
   "nativePackage": true,
   "peerDependencies": {
     "react-native": "^0.49.5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest-cli": "^21.2.1"
+  },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "jest": "^21.2.1",
     "react-native": "^0.49.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/jest-setup.js"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/examples"
+    ]
   }
 }

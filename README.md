@@ -27,9 +27,15 @@ Update your iOS projects entitlements to support Wireless Accessory Configuratio
   </plist>
 ```
 
+## Running test
+
+The unit tests are run using the jest test framework. To run the tests do:
+
+```npm install && npm run test```
+
 ## TODOs
 
-* Tests!
+* More tests!
 * Add NSPredicate support to ExternalAccessoryBrowser.startSearch
 * Add support for Bluetooth and wired external accessories.
 
