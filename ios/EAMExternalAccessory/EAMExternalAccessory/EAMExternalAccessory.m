@@ -108,8 +108,15 @@ RCT_EXPORT_METHOD(configureAccessory: (NSDictionary *) accessory
             [obj.macAddress isEqual: accessory[@"macAddress"]]) {
             *stop = YES;
             
+            UIViewController *controller = nil;
             UIView *responder = [RCTUIManager JSResponder];
-            UIViewController *controller = [[responder window] rootViewController];
+            
+            if (responder) {
+                controller = [[responder window] rootViewController];
+            } else {
+                controller = [UIApplication sharedApplication].delegate.window.rootViewController;
+            }
+
             [_accessoryBrowser configureAccessory: obj withConfigurationUIOnViewController: controller];
             
             resolver(@(YES));
