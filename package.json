@@ -1,6 +1,6 @@
 {
   "name": "react-native-external-accessory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactNative bindings for Apple ExternalAccessory Framework",
   "main": "index.js",
   "author": "David Bolcsfoldi <david@bolcsfoldi.com>",
